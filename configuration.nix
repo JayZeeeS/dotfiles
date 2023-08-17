@@ -64,12 +64,9 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     # Programming
-    elixir
     gcc
     git
-    go
     neovim
-    python311
     vim
     zsh
     # Utility
